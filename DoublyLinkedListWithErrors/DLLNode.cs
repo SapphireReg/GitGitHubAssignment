@@ -18,19 +18,19 @@ namespace DoublyLinkedListWithErrors
             previous = null;
         } // end of constructor
 
-        public Boolean isPrime(int n)
+        public Boolean isPrime()
         {
             Boolean b = true;
 
-            if (n < 2)
+            if (this.num < 2)
             {
                 return (false);
             }
             else
             {
-                for (int i = 2; i < Math.Sqrt(n); i++)
+                for (int i = 2; i <= Math.Sqrt(this.num); i++)
                 {
-                    if ((n % i) == 0)
+                    if ((this.num % i) == 0)
                     {
                         b = false;
                         break;

@@ -1,0 +1,8 @@
+C:\Users\regin\OneDrive - Wintec\WINTEC\Semester 5\Software Testing\UnitTesting\DoublyLinkedListWithErrors\DoublyLinkedListWithErrors\bin\x64\Debug\DoublyLinkedListWithErrors.exe.config
+C:\Users\regin\OneDrive - Wintec\WINTEC\Semester 5\Software Testing\UnitTesting\DoublyLinkedListWithErrors\DoublyLinkedListWithErrors\bin\x64\Debug\DoublyLinkedListWithErrors.exe
+C:\Users\regin\OneDrive - Wintec\WINTEC\Semester 5\Software Testing\UnitTesting\DoublyLinkedListWithErrors\DoublyLinkedListWithErrors\bin\x64\Debug\DoublyLinkedListWithErrors.pdb
+C:\Users\regin\OneDrive - Wintec\WINTEC\Semester 5\Software Testing\UnitTesting\DoublyLinkedListWithErrors\DoublyLinkedListWithErrors\obj\x64\Debug\DoublyLinkedListWithErrors.csproj.AssemblyReference.cache
+C:\Users\regin\OneDrive - Wintec\WINTEC\Semester 5\Software Testing\UnitTesting\DoublyLinkedListWithErrors\DoublyLinkedListWithErrors\obj\x64\Debug\DoublyLinkedListWithErrors.csproj.SuggestedBindingRedirects.cache
+C:\Users\regin\OneDrive - Wintec\WINTEC\Semester 5\Software Testing\UnitTesting\DoublyLinkedListWithErrors\DoublyLinkedListWithErrors\obj\x64\Debug\DoublyLinkedListWithErrors.csproj.CoreCompileInputs.cache
+C:\Users\regin\OneDrive - Wintec\WINTEC\Semester 5\Software Testing\UnitTesting\DoublyLinkedListWithErrors\DoublyLinkedListWithErrors\obj\x64\Debug\DoublyLinkedListWithErrors.exe
+C:\Users\regin\OneDrive - Wintec\WINTEC\Semester 5\Software Testing\UnitTesting\DoublyLinkedListWithErrors\DoublyLinkedListWithErrors\obj\x64\Debug\DoublyLinkedListWithErrors.pdb

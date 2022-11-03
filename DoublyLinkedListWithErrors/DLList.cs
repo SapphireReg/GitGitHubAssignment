@@ -26,9 +26,9 @@ namespace DoublyLinkedListWithErrors
             }
             else
             {
-                tail.next = p;
-                tail = p;
-                p.previous = tail;
+                p.previous = this.tail;
+                this.tail.next = p;
+                this.tail = p;
             }
         } // end of addToTail
 
@@ -41,13 +41,13 @@ namespace DoublyLinkedListWithErrors
             }
             else
             {
-                p.next = this.head;
                 this.head.previous = p;
-                head = p;
+                p.next = this.head;
+                this.head = p;
             }
         } // end of addToHead
 
-        public void removHead()
+        public void removeHead()
         {
             if (this.head == null) return;
             this.head = this.head.next;
@@ -62,6 +62,11 @@ namespace DoublyLinkedListWithErrors
                 this.head = null;
                 this.tail = null;
                 return;
+            } 
+            else
+            {
+                this.tail = this.tail.previous;
+                this.tail.next = null;
             }
         } // remove tail
 
@@ -73,11 +78,14 @@ namespace DoublyLinkedListWithErrors
             DLLNode p = head;
             while (p != null)
             {
+                if (p.num == num) 
+                { 
+                    return p;
+                }
                 p = p.next;
-                if (p.num == num) break;
             }
-            return (p);
-        } // end of search (return pionter to the node);
+            return null;
+        } // end of search (return pointer to the node);
 
         public void removeNode(DLLNode p)
         { // removing the node p.
@@ -109,8 +117,8 @@ namespace DoublyLinkedListWithErrors
             int tot = 0;
             while (p != null)
             {
-                tot += p.num;
-                p = p.next.next;
+                tot += 1;
+                p = p.next;
             }
             return (tot);
         } // end of total
